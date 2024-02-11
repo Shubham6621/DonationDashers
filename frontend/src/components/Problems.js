@@ -36,6 +36,7 @@ const Problems = () => {
                 src={Wastemoney}
                 alt="Waste of Money photo"
               />
+              {/* Change the pictures and description  Aish */}
               <h1>Wasted Money</h1>
               <p>
                 Food waste results in significant financial losses. Around the

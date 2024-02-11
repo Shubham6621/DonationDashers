@@ -681,7 +681,7 @@ button {
 @import url('https://fonts.googleapis.com/css2?family=Convergence&display=swap');
 .signup-body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(0deg, #ff7e5f, #feb47b);
+  background: linear-gradient(0deg, #ff7e5f, #feb47b);    /* Change the color Aish */
   margin: 0;
   padding: 0;
   padding-bottom: 50px;

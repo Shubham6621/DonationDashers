@@ -19,15 +19,15 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // MongoDB configuration
-const mongoURI = "mongodb+srv://Shubham4095:Shubham4095@cluster0.xyp4caw.mongodb.net/feedForward";
+const mongoURI = "mongodb+srv://Shubham4095:Shubham4095@cluster0.xyp4caw.mongodb.net/DonationDashers";
 mongoose
   .connect(mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then(() => console.log("FeedForward Account DB connected"))
+  .then(() => console.log("DonationDashers Account DB connected"))
   .catch((err) => {
-    console.error("FeedForward Account DB connection error:", err);
+    console.error('DonationDashers Account DB connection error:', err)
     process.exit(1); // Terminate the server on connection error
   });
 

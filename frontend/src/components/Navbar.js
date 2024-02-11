@@ -35,11 +35,7 @@ const Navbar = () => {
               Inventory
             </Link>
           </li>
-          <li>
-            <Link className="button" to="/ecopro">
-              Kitchen Analytics
-            </Link>
-          </li>
+          
         </ul>
       </div>
       {loggedIn ? (

@@ -75,7 +75,7 @@ const SignUp = () => {
   const handleBusinessSignUp = async (e) => {
     e.preventDefault();
     const passwordRegex =
-      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$#!%*?&]{8,}$/;
 
     if (businessPassword!=="" & businessEmail!=="" & !passwordRegex.test(businessPassword)) {
       setSignUpMessage(
@@ -121,8 +121,8 @@ const SignUp = () => {
       <div className="wrapper">
         <div className="description">
           <h1 id="msg">
-            Make a difference with{" "}
-            <span className="site-name">MealMatters</span>
+            Make a difference with{' '}
+            <span className="site-name">DonationDashers</span>
           </h1>
           <p>
             Sign up below to join our community and unlock a world of
@@ -135,16 +135,16 @@ const SignUp = () => {
         <p
           className={`message ${
             signUpMessage
-              ? signUpMessage === "User Account Created Successfully"
-                ? "success"
-                : "error"
-              : ""
+              ? signUpMessage === 'User Account Created Successfully'
+                ? 'success'
+                : 'error'
+              : ''
           }`}
         >
           {signUpMessage}
         </p>
       )}
-      {signUpMessage === "User Account Created Successfully" &&
+      {signUpMessage === 'User Account Created Successfully' &&
         countdown > 0 && (
           <p className="countdown-timer">
             Redirecting in <span className="timer">{countdown}</span> seconds to
@@ -153,7 +153,7 @@ const SignUp = () => {
         )}
       <div className="form-wrapper">
         <div className="container-1">
-          <h1>As a Household</h1>
+          <h1>As a Donor</h1>
           <form method="POST">
             <div className="form-group">
               <input
@@ -201,6 +201,7 @@ const SignUp = () => {
             </div>
           </form>
           <div className="bullet-points">
+            {/* Change the li  Aish */}
             <ul>
               <li>Full Access to our Algorithms</li>
               <li>Unlimited Donations</li>
@@ -221,7 +222,7 @@ const SignUp = () => {
           </ScrollLink>
         </div>
         <div className="container2">
-          <h1>As a Business</h1>
+          <h1>As a Distributor</h1>
           <form method="POST">
             <div className="form-group2">
               <input
@@ -269,6 +270,8 @@ const SignUp = () => {
             </div>
           </form>
           <div className="bullet-points2">
+            {' '}
+            {/* Change the li  Aish */}
             <ul>
               <li>Full Access to our Algorithms</li>
               <li>Unlimited Donations</li>
@@ -276,7 +279,6 @@ const SignUp = () => {
               <li>Better Tax Implications</li>
               <li>Gain Competitive Advantage</li>
               <li>Minimize Carbon Emissions</li>
-              <li>Help the Unprivileged</li>
             </ul>
           </div>
           <ScrollLink to="msg" smooth={true} duration={500}>
@@ -291,7 +293,7 @@ const SignUp = () => {
         </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default SignUp;
