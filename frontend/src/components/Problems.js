@@ -36,16 +36,17 @@ const Problems = () => {
                 src={Wastemoney}
                 alt="Waste of Money photo"
               />
-              {/* Change the pictures and description  Aish */}
+              {/* Change the pictures and description  Aish - Done */}
               <h1>Wasted Money</h1>
               <p>
-                Food waste results in significant financial losses. Around the
-                world, it is estimated that{' '}
+                Throwing away edible food represents a major financial drain globally.
+                It is estimated{' '}
                 <span id="para-highlights">
-                  we collectively waste ₹92,000 crores per annum on discarded
-                  food.{' '}
+                  approximately 92,000 crore rupees worth of food is wasted worldwide
+                  every year. {' '}
                 </span>
-                By reducing waste, we can save money and support businesses.
+                Cutting down on food waste could generate significant cost savings
+                and provide financial benefits to food businesses and suppliers.
               </p>
             </div>
             <div class="card2">
@@ -57,11 +58,14 @@ const Problems = () => {
               />
               <h1>Environmental Impact</h1>
               <p>
-                Food waste has a considerable environmental footprint. Each
-                year, it is estimated that wasted food contributes [insert
-                estimated amount] of global CO2 emissions. By minimizing waste,
-                we can significantly reduce our carbon footprint and help
-                protect our environment.
+              Food waste has a substantial negative impact on the environment.
+              Studies suggest that around
+              <span id="para-highlights">
+                6% of worldwide CO2 emissions {' '}
+              </span>
+              annually can be attributed to discarded or unused food. Reducing food waste
+              where possible could significantly decrease carbon emissions and help
+              lessen the food system's environmental footprint overall.
               </p>
             </div>
             <div class="card3">
@@ -73,10 +77,11 @@ const Problems = () => {
               />
               <h1>Fighting Hunger</h1>
               <p>
-                While we throw away food, many people in our neighborhood and
-                beyond face hunger and food insecurity. By reducing waste, we
-                can help ensure that everyone has access to nourishing meals and
-                contribute to a more food-secure community.
+              At the same time that large amounts of food are being wasted, there are many people
+              in our local community and around the world who struggle with hunger and lack reliable
+              access to nutritious food. Cutting down on food waste where we can could help make
+              more food available to feed hungry people and contribute to building a more food-secure 
+              society where everyone's nutritional needs are met.
               </p>
             </div>
             <div class="card4">
@@ -88,10 +93,10 @@ const Problems = () => {
               />
               <h1>Efficient Resource Use</h1>
               <p>
-                Wasting food means wasting valuable resources like water,
-                energy, and land. By being mindful of our consumption and
-                minimizing waste, we can make the most of these resources and
-                create a sustainable neighborhood.
+              When food goes to waste, it also wastes the precious resources like water, energy
+              and land that went into producing it. By carefully considering our food purchases
+              and consumption habits, and reducing waste where we can, we can make the best use
+              of these limited resources and promote sustainability in our community.
               </p>
             </div>
             <div class="card5">
@@ -103,10 +108,9 @@ const Problems = () => {
               />
               <h1>Community Responsibility</h1>
               <p>
-                As a close-knit neighborhood, we have a responsibility to each
-                other and the planet. By reducing food waste, we show care for
-                our community, demonstrate good stewardship of resources, and
-                set a positive example for others.
+              As a close-knit community, we have a duty to care for each other and our shared
+              resources. Reducing food waste demonstrates that care, shows we value our
+              neighborhood and planet, and sets a positive, sustainable example.
               </p>
             </div>
             <div class="card6">
@@ -118,10 +122,11 @@ const Problems = () => {
               <h1>Building a Sustainable Future</h1>
               <p>
                 {' '}
-                Food waste highlights inefficiencies in our food system. By
-                addressing this issue, we can contribute to a more efficient and
-                resilient food system that benefits everyone in our
-                neighborhood. Together, we can create a sustainable future.
+                The amount of wasted food indicates there are problems with how our food
+                system functions. By working to reduce food waste, we can help create a
+                more robust and effective food supply chain that is good for our entire
+                neighborhood. If we join together to tackle this issue, we can build a
+                more sustainable future for our community.
               </p>
             </div>
           </div>
