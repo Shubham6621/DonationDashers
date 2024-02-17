@@ -1,0 +1,9 @@
+services:
+  donation_dashers_frontend:
+    build: ./frontend/
+    ports:
+      - "3000:3000"
+  donation_dashers_backend:
+    build: ./backend/nodejs-server
+    ports:
+      - "5000:5000"
