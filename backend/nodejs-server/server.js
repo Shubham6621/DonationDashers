@@ -1,9 +1,9 @@
-const express = require("express");
-const mongoose = require("mongoose");
-const bodyParser = require("body-parser");
-const cors = require("cors");
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
+import express from "express";
+import mongoose from "mongoose";
+import bodyParser from "body-parser";
+import cors from "cors";
+import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
 
 const app = express();
 
