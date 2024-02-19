@@ -2,7 +2,6 @@
   "name": "donationdashers",
   "version": "0.2.0",
   "private": true,
-  "type": "module",
   "proxy": "http://localhost:5000/",
   "dependencies": {
     "@chakra-ui/react": "^2.7.1",
@@ -18,7 +17,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "babel-preset-react-app": "^10.0.1",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "axios": "^1.4.0",
     "body-parser": "^1.20.2",
     "chart.js": "^4.3.0",
