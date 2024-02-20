@@ -15,7 +15,7 @@ app.listen(port, () => console.log(`Server running on port ${port}`));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// Enable CORS for all routes
+// Enable CORS for all Routes
 app.use(cors());
 
 // MongoDB configuration
