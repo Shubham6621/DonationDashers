@@ -22,7 +22,7 @@ const SignUp = () => {
   const handleHouseholdSignUp = async (e) => {
     e.preventDefault()
     const passwordRegex =
-      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%#*?&])[A-Za-z\d@$!%*?&]{8,}$/
 
     if (
       householdPassword !== '' &&

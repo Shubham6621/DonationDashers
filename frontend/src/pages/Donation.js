@@ -53,14 +53,14 @@ const Donation = () => {
   useEffect(() => {
     // Function to initialize the map and enable auto-fill functionality
     const initializeMap = () => {
-      const map = L.map('map').setView([40.7128, -74.0060], 12); // Set the initial map view
+      const map = L.map('map').setView([18.9641, 72.8241], 12);  // Set the initial map view
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
         maxZoom: 18,
       }).addTo(map);
 
-      const marker = L.marker([40.7128, -74.0060], { draggable: true }).addTo(map); // Add a draggable marker
+      const marker = L.marker([18.9641,  72.8241], { draggable: true }).addTo(map); // Add a draggable marker
 
       // Update the address and city inputs when the marker is dragged
       marker.on('dragend', function (event) {
