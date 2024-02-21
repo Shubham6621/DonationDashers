@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { Route, Routes } from 'react-router-dom';
+import {Route,Routes} from 'react-router-dom';
 
 
 import Navbar from "./components/Navbar";
@@ -11,7 +11,7 @@ import Inventory from "./pages/Inventory";
 import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
 
-import { AuthProvider } from './AuthContext';
+import {AuthProvider} from './AuthContext';
 import ECOProgress from "./pages/ECOProgress";
 
 

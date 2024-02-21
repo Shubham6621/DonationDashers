@@ -53,14 +53,14 @@ const Donation = () => {
   useEffect(() => {
     // Function to initialize the map and enable auto-fill functionality
     const initializeMap = () => {
-      const map = L.map('map').setView([18.9641, 72.8241], 12);  // Set the initial map view
+      const map = L.map('map').setView([40.7128, -74.0060], 12); // Set the initial map view
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
         maxZoom: 18,
       }).addTo(map);
 
-      const marker = L.marker([18.9641,  72.8241], { draggable: true }).addTo(map); // Add a draggable marker
+      const marker = L.marker([40.7128, -74.0060], { draggable: true }).addTo(map); // Add a draggable marker
 
       // Update the address and city inputs when the marker is dragged
       marker.on('dragend', function (event) {
@@ -85,7 +85,7 @@ const Donation = () => {
   return (
     <div className="donation-body">
       <div className="head-description">
-        <h1>Donate Food with <span className="site-name">fEEDfORWARD</span></h1>
+        <h1>Donate Food with <span className="site-name">Donation Dashers</span></h1>
         <p>"Food donation is not just about filling empty stomachs; it's about nourishing hope, 
         <br />
           feeding compassion, and cultivating a brighter future for all."</p>
