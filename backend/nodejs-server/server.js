@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // MongoDB configuration
-const mongoURI = "mongodb+srv://Shubham4095:Shubham4095@cluster0.xyp4caw.mongodb.net/DonationDashers";
+const mongoURI = {Enter URL};
 mongoose
   .connect(mongoURI, {
     useNewUrlParser: true,
